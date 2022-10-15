@@ -20,7 +20,34 @@ https://www.simplilearn.com/scikit-learn-vs-tensorflow-article
 
 "The machine learning algorithm is also implemented using Scikit-learn, a higher-level library."
 
+## Running the project:
 
+### Install python and the requirements:
+
+Install Python:
+* [Windows](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
+
+Install the Pyhton package manager (PIP):
+* [Windows](https://phoenixnap.com/kb/install-pip-windows)
+
+[Create a virtualenv](https://docs.python.org/3/library/venv.html):
+```
+python3 -m venv .
+```
+
+Install the dependencies:
+```
+pip3 install -r requirements.txt
+```
+
+### Running the script:
+```
+python3 main.py
+```
+
+## Examples for testing with dataset.csv:
+
+```
 0,unknown,3,1,1,20060421120648,20161028084502,157,3844,97,117,2,0,0,10,4,7,5,130,0.997535302103113,994
 0,unknown,3,1,0,20161027234947,20170911201328,165,320,23,15,0,0,0,5,0,31,27,101,1.29126262950745,974
 0,unknown,3,3,1,20060110204256,20160108221641,1093,3651,298,378,64,0,0,34,22,122,9,898,0.661673179614133,477
@@ -57,3 +84,4 @@ https://www.simplilearn.com/scikit-learn-vs-tensorflow-article
 2,unknown,2,1,2,20120405102902,20170302073010,122,1793,33,43,7,0,0,8,1,0,2,111,1.02771709743701,841
 2,female,3,3,2,20091014131349,20161112122730,962,2587,307,334,5,0,0,49,273,33,106,493,1.00522694513289,817
 1,unknown,1,2,0,20050901045004,20151022222845,284,3704,44,207,0,0,0,34,171,0,20,40,1.20440316450483,647
+```
