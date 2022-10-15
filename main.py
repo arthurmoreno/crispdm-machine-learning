@@ -94,8 +94,11 @@ def cross_validate_models(models, x, y):
         )
         results.append(cv_results)
         names.append(name)
-        msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
-        print(msg)
+        print(
+            "{}: {} ({})".format(
+                name, cv_results.mean(), cv_results.std()
+            )
+        )
 
     return results, names
 
